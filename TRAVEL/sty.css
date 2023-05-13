@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #000000c2;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    aling-items:center
+}
+
+.header {
+    margin-bottom: 40px;
+    height: 60vh ¡important;
+    background:linear-gradient(rgba(0, 0, 0, 0.086),rgba(0, 0, 0, 0.091)),
+     url(fondo2.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    }
+
+title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 40px;
+  font-size: 60px;
+  color: #fff;
+  padding: 0 100px;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+
+.btn {
+display: inline-block;
+margin-top: 100px;
+padding: 10px 50px;
+border: 2px solid hsl(14, 100%, 44%);
+color: #fff;
+text-decoration: none;
+background-color: hsla(14, 100%, 44%, 0.603);
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin:0 10;
+}
+
+
+.content {
+    height: 60vh;
+    height: 60vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sau {
+    padding: 30px;
+    background: #6e1f00;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    height: 11rem;
+    width: 17rem;
+    background: 101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgba(0, 0, 0, 0.5);
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #000000a8;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0);
+    margin: 2rem;
+}
+
+
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: hsl(14, 100%, 44%);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color:  hsl(14, 100%, 44%);
+
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16 px;
+}
+
+.about {
+    background: #130400;
+}
+
+.price {
+    background:linear-gradient(rgba(0, 0, 0, 0.125),rgba(0, 0, 0, 0.149)),
+     url(avion.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background:  #130400;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.rose {
+    background:linear-gradient(rgba(0, 0, 0, 0.16),rgba(0, 0, 0, 0.236)),
+     url(comida3mex.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.soo {
+    padding: 1px;
+    background:  #130400;
+}
+
+
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
